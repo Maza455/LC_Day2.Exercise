@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Form Example</title>
+	<title>Sum</title>
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
 </head>
 <body>
 	<form>
 		<label for="input1">Input 1:</label>
-		<input type="text" id="input1" name="input1"><br><br>
+		<input type="number" id="input1" name="input1"><br><br>
 
 		<label for="input2">Input 2:</label>
-		<input type="text" id="input2" name="input2"><br><br>
-        <label id="output"></label>
-		<button type="button" onclick="showAlert()">Submit</button>
+		<input type="number" id="input2" name="input2"><br><br>
+
+		<button type="button" onclick="showSum()">Submit</button>
+		<p id="result"></p>
 	</form>
 
-    <script src="./script/script.js"></script>
+	<script src="./script/script.js"></script>
 </body>
 </html>
